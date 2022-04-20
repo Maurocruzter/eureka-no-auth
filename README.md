@@ -1,4 +1,4 @@
-To run the Docker image, you must make sure the following Firewall ports are open
+Run the projects in this order: 
 
 `8761 - Eureka Server`
 
@@ -6,7 +6,7 @@ To run the Docker image, you must make sure the following Firewall ports are ope
 
 `8081 - Eureka Feign`
 
-on Ubuntu you can open ports through the following command: 
+on Ubuntu you can open ports **(This is more relevant if you are running on Docker)** by running the following command:
 
 `$ ufw allow <Port>`
 

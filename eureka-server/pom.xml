@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.inatel.restapi</groupId>
-	<artifactId>Stock-Quote-Manager</artifactId>
+	<artifactId>Eureka-Server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Stock-Quote-Manager</name>
-	<description>Project for controlling register of stock quotes </description>
+	<name>Eureka-Server</name>
+	<description>Project for automatically registering services with Eureka </description>
 	<packaging>jar</packaging>
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
