@@ -18,3 +18,5 @@ If you are running the images **with docker**, you will need to specify the IP a
 The property you should change in both projects is `eureka.client.serviceUrl.defaultZone`
 
 **If you run the images with docker and leave** `localhost` **as the Eureka IP address, it will look for the** `localhost` **of the docker image and therefore will not find the Eureka server**.
+
+To test, go to postman and do a get on  `http://localhost:8081/query` **Assuming that things are not running on Docker**.
